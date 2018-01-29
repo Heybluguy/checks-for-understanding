@@ -100,6 +100,7 @@ activities = {
 ```
 How would I add 'granola bar' to things you should have when hiking?
   activities[:hiking][:supplies].unshift("granola bar")
+
 23. What are the 4 Principles of OOP? Give a one sentence explanation of each.
   Encapsulation
   Abstraction
