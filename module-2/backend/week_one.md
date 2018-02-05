@@ -4,6 +4,8 @@ Fork this respository. Answer the questions to the best of your ability. Try to 
 
 Note: When you're done, submit a PR.
 
+### Week 1 Questions
+
 1. List the five common HTTP verbs and what the purpose is of each verb.
   post - creating,
   delete - destroying,
@@ -89,6 +91,7 @@ films.each do |row|
   Station.create!(id: row[:id], title: row[:title], desciption: row[:description])
 end`
 
+
 22. Given the following hash:
 ```
 activities = {
@@ -102,9 +105,17 @@ How would I add 'granola bar' to things you should have when hiking?
   activities[:hiking][:supplies].unshift("granola bar")
 
 23. What are the 4 Principles of OOP? Give a one sentence explanation of each.
+
   Encapsulation
   Abstraction
   Polymorphysism
   Anheritence
 
+
+### Self Assessment:
+Choose One:
+* I was able to answer most questions independently, but utilized outside resources for a few
+
+Choose One:
+* I feel confident about the content presented this week
 
