@@ -1,11 +1,10 @@
 ## Week Two - Module 2 Recap
 
-Fork this respository. Answer the questions to the best of your ability. Try to answer them with limited amount of external research. These questions cover the majority of what we've learned this week (which is a TON - YOU are a web developer!!!).
-
+Fork this respository. Answer the questions to the best of your ability. Try to answer them with limited amount of external research. These questions cover the majority of what we've learned this week (which is a TON - YOU are a web developer!!!)
 Note: When you're done, submit a PR.
 
 1. At a high level, what is ActiveRecord? What does it do/allow you to do?
-  It uses orm to build and interact with tables, columns and rows using ruby and makes connections between them all and render it with html.
+  Active Record uses object relational mapping to build and interact with tables, columns and rows using ruby and makes connections between them all and render it with html.
 
 2. Assume you have the following model:
 
@@ -40,16 +39,19 @@ Now how would you find the owner of the team with an id of 4?
   ```
 
 5. In a database that's holding students and teachers, what will be the relationship between students and teachers? Draw the schema diagram.
-  check schema diagram in file tree.
+  Added schema diagram in filetree.
 
 6. Define foreign key, primary key, and schema.
-  schema is blueprint for th database of the tables and their attributes and the relationships between each other. primary key is an object's specific identifier. foreign key is a field from one table that uniquely identifies a row of another table.
+  Schema is a blueprint for the database of the tables and their attributes and the relationships between each other. Primary key is an object's specific identifier. foreign key is a field from one table that uniquely identifies a row of another table.
 
 7. Describe the relationship between a foreign key on one table and a primary key on another table.
-  foreign key is a field from one table that uniquely identifies a primary key on another table.
+  Foreign key is a field from one table that uniquely identifies a primary key on another table. ie: category_id
 
 8. What are the parts of an HTTP response?
-response code,http version, response header, response body
+  -response code
+  -http version
+  -response header
+  -response body
 
 
 ### Optional Questions
