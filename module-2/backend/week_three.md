@@ -7,7 +7,7 @@ Try to answer them with limited amount of external research. These questions cov
 
 Note: When you're done, submit a PR with a reflection in the comments about how this exercise went for you.
 
-### Questions
+### Week 3 Questions
 
 1. What is the entry at the command line to create a new rails app?
   rails new <filename> -T -d=“postgresql” —skip-turbolinks —skip-spring
@@ -51,4 +51,5 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
 
 12. Why do we want to validate our models?
   to check uniqueness and presence of important attributes
+
 
